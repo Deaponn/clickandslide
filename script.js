@@ -209,7 +209,7 @@ let banner = {
         document.getElementById("bannerDiv").appendChild(banner)
         document.getElementById("bannerDiv").appendChild(right)
 
-        setTimeout(function () { document.getElementById("banner").scrollLeft = 360 }, 50)
+        setTimeout(function () { document.getElementById("banner").scrollLeft = 360 }, 100)
     },
     slideRight: function (remaining, speed) {
         if (document.getElementById("banner").scrollLeft < 1440) {
